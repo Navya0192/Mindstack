@@ -1,0 +1,294 @@
+/*===================navbar============ */
+.navbar
+{
+	width:85%;
+	margin:auto;
+	padding:35px,0;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+
+.logo
+{
+	width:120px;
+	cursor:pointer;
+}
+
+nav
+{
+	flex:1;
+	text-align:right;
+	
+}
+nav ul
+{
+	display:inline-block;
+	list-style-type:none;
+}
+nav ul li
+{
+	list-style:none;
+	display:inline-block;
+	margin:0 20px;
+	position:relative;
+}
+nav  ul li a
+{
+	text-decoration:none;
+	color:rgb(5, 5, 5);
+	text-transform: uppercase;
+}
+
+.navbar ul li::after{
+	content:'';
+	height:3px;
+	width:0%;
+	background:rgb(242, 242, 5);
+	position:absolute;
+	left:0;
+	bottom:-10px;
+	transition:0.5s;
+	
+}
+.navbar ul li:hover::after{
+	width:100%;
+	
+}
+/*==============Banner css=====================*/
+.banner {
+    
+    height: 650px;
+    margin: auto;
+    width: 100%;
+  }
+.section slider{
+    height: 650px;
+    margin: auto;
+    width: 100%;
+}
+.div flexslider{
+    height: 650px;
+    margin: auto;
+    width: 100%;
+}
+.div banner{
+    height:450px;
+    margin: auto;
+    width: 100%;
+}
+/*====================Container Css=====================*/
+div .container{
+    
+    padding-top:20px 0;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    display: flex;
+}
+div .container2{
+    background-color: rgb(218, 217, 215);
+    padding-top:30px 0;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    display: flex;
+}
+/*=================Cards Container===================*/
+
+.cards-container {
+    width: 1421px;
+    height: 698px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cards-container h1 {
+    font-size: 40px;
+    display: block;
+    width: 443px;
+    height: 116px;
+    align-self: center;
+    text-align: center;
+  }
+  
+.cards {
+    display:flex;
+    margin-left: 50px;
+    justify-content: center;
+  }
+  
+  .cards .card {
+    margin-right: 51px;
+  }
+  
+
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  
+  
+  .cards .card:last-child {
+    margin-left: 0px;
+  }
+  
+  .card {
+    height: 250px;
+    width: 353px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 184, 53);
+    transition: 0.3s all ease-in;
+  }
+  .card:hover {
+    box-shadow: 0px 4px 4px rgb(3, 3, 3);
+  }
+  
+  .card img {
+    width: 293px;
+    height: 180px;
+    border-radius: 20px 20px 0 0;
+    
+  }
+  
+  .card h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    
+  }
+  
+ /*=================Footer===================*/
+
+ .footer{
+  background-color:rgb(0, 0, 0);
+  width:100%;
+  margin:auto;
+  padding:5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foot{
+  background-color:rgb(0, 0, 0);
+  width:100%;
+  margin:auto;
+  padding:5px 0;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+/*==============contact form =========================*/
+form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+label, input, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: auto;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/*===============column=============*/
+.column {
+  flex: 100%;
+  padding: 10px;
+  height: 750px; 
+  margin:30px;
+  justify-content: center;
+}
+.row{
+  display: flex;
+}
+
+.cards-container {
+  width: 1421px;
+  height: 698px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-container h1 {
+  font-size: 40px;
+  display: block;
+  width: 443px;
+  height: 116px;
+  align-self: center;
+  text-align: center;
+}
+
+.cards1 {
+  display:flex;
+  margin-left: 30px;
+  justify-content: center;
+}
+
+.cards1 .card1 {
+  margin-right: 31px;
+}
+
+
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+
+.cards1 .card1:last-child {
+  margin-left: 0px;
+}
+
+.card1 {
+  height: 150px;
+  width: 243px;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: rgb(255, 184, 53);
+  transition: 0.3s all ease-in;
+}
+.card1:hover {
+  box-shadow: 0px 4px 4px rgb(3, 3, 3);
+}
+
+.card1 img {
+  width: 180px;
+  height: 80px;
+  border-radius: 20px 20px 0 0;
+  
+}
+
+.card1 h1 {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 34px;
+  
+}
